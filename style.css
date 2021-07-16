@@ -8,10 +8,20 @@
     src: url(https://fonts.google.com/specimen/Fraunces);
     font-weight: 800;
 }
+body, html{
+    margin: 0;
+    padding: 0;
+}
 
 header {
-    background-color:#03c8ff ;
+    display: flex;
+    flex-direction: column;
+    /* background-color:#03c8ff ; */
     color: white;
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
 }
 .top {
     display: flex;
@@ -29,7 +39,8 @@ ul{
     margin: 0;
 }
 ul li {
-    padding-right: 3em;
+    padding-left: 3em;
+    cursor: pointer;
 }
 .active{
 
@@ -38,14 +49,34 @@ ul li {
     background-color: white;
     border: none;
     color: black;
-    padding: 10px 20px;
+    padding: 16px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+     
     cursor: pointer;
-    border-radius: 16px;
-    transform-origin: center center;
+    border-radius: 22px;
+    text-transform: uppercase;
     position: relative;
-    top: -25%;
+    top: -30%;
+ 
 }
+h1{
+    font-family: 'Barlow';
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 4.5em;
+    letter-spacing: .2em;
+    margin: 1em auto 1.7em;
+}
+.arrow{
+    margin: 0 auto 0;
+    
+    ;
+}
+/* header img{
+    position: absolute;
+    z-index: -1;
+    
+
+} */
