@@ -30,8 +30,8 @@
       <object data='./images/logo.svg'></object>
       <nav>
         <ul>
-          <li><a>About</a></li>
-          <li><a>Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
           <li><a>Projects</a></li>
           <li class='active'><a>Contact</a></li>
         </ul>
@@ -41,34 +41,58 @@
     <object class='arrow' data='./images/icon-arrow-down.svg'></object>
 
   </header>
-  <section>
-    <div class="about">
-      Transform your brand
+  <section id='about'>
+    <div class="about-row">
+      <div class="row-text">
 
-      We are a full-service creative agency specializing in helping brands grow fast.
-      Engage your clients through compelling visuals that do most of the marketing for you.
+        <h2>Transform your brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
 
-      Learn more
+        <span class="learn yellow">Learn more</span>
+      </div>
+      <img src="./images/desktop/image-transform.jpg" alt="egg">
     </div>
-    <div class="about">
+    <div class="about-row">
 
-      Stand out to the right audience
+      <img src="./images/desktop/image-stand-out.jpg" alt="cup">
+      <div class="row-text">
 
-      Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
-      build
-      and extend your brand in digital places.
+        <h2>
+          Stand out to the right audience
+        </h2>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+          build
+          and extend your brand in digital places.
+        </p>
 
-      Learn more
+        <span class="learn salmon">
+          Learn more
+        </span>
+      </div>
     </div>
   </section>
-  <secton>
+  <section id="services">
+    <div class="services-item cherry">
 
-    Graphic design
-    Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
-    clients’ attention.
+      <h3>Graphic design</h3>
+      <p>
+        Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+        potential
+        clients’ attention.</p>
+    </div>
+    <div class="services-item orange">
 
-    Photography
-    Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      <h3>Photography</h3>
+      <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      </p>
+
+    </div>
+  </section>
+  <section>
 
     Client testimonials
 
@@ -84,7 +108,7 @@
     Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
     Jennie F.
     Business Owner
-  </secton>
+  </section>
   <footer>
 
     About
