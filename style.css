@@ -125,19 +125,55 @@ h1{
     background-color: salmon;
 }
 #services{
-    height: 50vh;
+    height: 50vw;
     display: flex;
+
 }
 .services-item{
     background-size: cover;
 }
 .cherry{
     background-image: url('./images/desktop/image-graphic-design.jpg');
+    color: #25564b;
 }
 .orange{
     background-image: url('./images/desktop/image-photography.jpg');
+    color:#19536b;
 }
-
+.services-item{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: justify;
+    text-align-last: center;
+    padding: 2em 6em;
+    
+}
+.services-item > * {
+    display: block;
+}
+.services-item h3{
+    font-family:'Barlow';
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    
+}
+.services-item p{
+     line-height: 1.4em;
+     margin-top: 2em;
+   
+}
+#testimonials {
+    display: block;
+    height: 60vh;
+ 
+}
+.container{
+    display: inline-block;
+}
 /* header img{
     position: absolute;
     z-index: -1;
