@@ -8,7 +8,8 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript. Check out my progress <a href="https://rodrigo-20.github.io/sunnyside-agency-landingpage/">here</a>**
+
 
 ## The challenge
 
