@@ -13,10 +13,13 @@ body, html{
     padding: 0;
     max-width: 1000px;
     scroll-behavior: smooth; 
+    background-color: #dddddd;
     
 }
+.body-container {
+    background-color: #fff;
+}
 #about {
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -90,6 +93,7 @@ h1{
    
 }
 .about-row{
+    max-height: 50vh;
     display: flex;
     flex: 1;
     
@@ -100,7 +104,7 @@ h1{
 .row-text{
     font-family: 'Fraunces';
     box-sizing: border-box;
-    padding: 10%;
+    padding: 5% 10%;
     text-align: justify;
      
     
@@ -142,9 +146,7 @@ h1{
 }
 #services{
     min-height: 50vh;
-    
     display: flex;
-
 }
 .services-item{
     background-size: cover;
@@ -212,15 +214,14 @@ h1{
     
 }
 .testimonial{
-    border: 1px solid red;
-    text-align: center;
-    padding: 2em;
+     text-align: center;
+    padding: 2em .5em;
 }
 .testimonial p{
-    border: 1px solid yellowgreen;
-}
+    
+ }
 .desc {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 .width{
     position: fixed;
@@ -233,7 +234,35 @@ h1{
     color:  #a6a6a6;
     letter-spacing: .2em;
 }
- 
+.designs {
+    display: flex;
+    height: 60vh;
+}
+.des{
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.milk{
+    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+
+}
+.orange-2{
+    background-image: url('./images/desktop/image-gallery-orange.jpg');
+}
+.ice {
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
+}
+.sugar {
+    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+}
+
+footer{
+    background-color: #8ed0c3;
+}
+#logo{
+    fill: #25564b;
+}
 /* @media (min-width:1400px){
     body{
         width: 1400px;
