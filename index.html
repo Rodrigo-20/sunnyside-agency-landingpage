@@ -10,18 +10,6 @@
 
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
@@ -30,18 +18,20 @@
     <span class="width"></span>
     <header>
       <div class="top">
-        <object data='./images/logo.svg'></object>
+        <object class="logo" data='./images/logo.svg'></object>
         <nav>
-          <ul>
+          <ul class="menu-list">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a>Projects</a></li>
-            <li class='active'><a>Contact</a></li>
+            <li class="stand-out"><a>Contact</a></li>
           </ul>
+          
         </nav>
+        <img class="menu-icon" src="images/icon-hamburger.svg" alt="">
       </div>
       <h1>We are creatives</h1>
-      <object class='arrow' data='./images/icon-arrow-down.svg'></object>
+      <a href="#about"><img  class="arrow" src="./images/icon-arrow-down.svg" alt="arrow"></a>
 
     </header>
 
@@ -49,22 +39,18 @@
     <section id='about'>
       <div class="about-row">
         <div class="row-text">
-
           <h2>Transform your brand</h2>
           <p>
             We are a full-service creative agency specializing in helping brands grow fast.
             Engage your clients through compelling visuals that do most of the marketing for you.
           </p>
-
           <span class="learn yellow">Learn more</span>
         </div>
-        <img src="./images/desktop/image-transform.jpg" alt="egg">
+        <div class="image-container"><div class="image egg"></div></div>
       </div>
-      <div class="about-row">
-
-        <img src="./images/desktop/image-stand-out.jpg" alt="cup">
+      <div class="about-row reverse-about">
+        <div class="image-container"><div class="image cup"></div></div>
         <div class="row-text">
-
           <h2>
             Stand out to the right audience
           </h2>
@@ -103,7 +89,6 @@
         Client testimonials
       </h3>
       <div class="testimonials-container">
-
         <div class="testimonial">
           <img src="./images/image-emily.jpg" alt="Emily">
           <p class="desc">
@@ -137,12 +122,11 @@
             Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
           </p>
           <p>
-            <span class="name">Jennie F</span>.
+            <span class="name">Jennie F.</span>
             <span class="charge">Business Owner</span>
           </p>
         </div>
       </div>
-
     </section>
     <div class="designs">
       <div class="des milk"></div>
@@ -150,15 +134,36 @@
       <div class="des ice"></div>
       <div class="des sugar"></div>
     </div>
-    <footer>
-
-      <object type="image/svg+xml" class='bottom' data='./images/logo.svg'></object>
-      About
-      Services
-      Projects
-      Contact
+    <footer id="footer">
+      <object type="image/svg+xml" class='bottom-logo' data='./images/logo-green.svg'></object>
+      <ul class="bottom-links">
+        <li><a>About</a></li>
+        <li><a>Services</a></li>
+        <li><a>Projects</a></li>
+      </ul>
+      <ul class="social-links">
+        <li>
+          <div class="svg-container">
+            <a><div class="bg-svg" style="background-image: url('./images/icon-facebook.svg')"></div></a>
+          </div>
+        </li>
+        <li>
+          <div class="svg-container">
+            <a><div class="bg-svg" style="background-image: url('./images/icon-instagram.svg')"></div></a>
+          </div>
+        </li>
+        <li>
+          <div class="svg-container">
+            <a><div class="bg-svg" style="background-image: url('./images/icon-twitter.svg')"></div></a>
+          </div>
+        </li>
+        <li>
+          <div class="svg-container">
+            <a><div class="bg-svg" style="background-image: url('./images/icon-pinterest.svg')"></div></a>
+          </div>
+        </li>
+      </ul>
     </footer>
-
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
