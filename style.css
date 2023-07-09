@@ -26,6 +26,7 @@ body, html{
     background-color: #dddddd;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
+    font-size: 18px;
     
 }
 
@@ -93,7 +94,7 @@ header {
     font-size: 1em;
     font-family:'Barlow';
     font-weight: 700;
-    padding: 2.5em 0 .5em;
+    padding: 2.8em 0 .5em;
     transition: 200ms box-shadow ease-in;
 }
 
@@ -102,7 +103,7 @@ header {
 }
 
 nav{
-    padding-right: 2em;
+    padding-right: 3.6em;
 }
 
 ul{
@@ -117,7 +118,7 @@ ul{
 }
 
 nav  li {
-    padding-left: 3rem;
+    padding-left: 2.7em;
     cursor: pointer;
 }
 
@@ -128,26 +129,25 @@ nav  li {
     background-color: white;
     border: none;
     color: black;
-    padding: 16px 25px;
+    padding: 16px 1.8em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-     
     cursor: pointer;
-    border-radius: 22px;
+    border-radius: 30px;
     text-transform: uppercase;
     position: relative;
     top: -30%;
- 
 }
-h1{
+
+header h1{
     text-align: center;
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 3rem;
     letter-spacing: .2em;
-    margin: 3em .2em 1.7em;
+    margin: 3.6em 0 1.7em;
     
 }
 
